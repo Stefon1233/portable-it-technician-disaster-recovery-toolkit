@@ -1,99 +1,68 @@
-# USB 1 — IT-TOOLKIT
+# Tools Used
 
-## Overview
+## Ventoy
 
-USB 1 is a portable technician toolkit intended for troubleshooting computers that can successfully boot into their operating system.
+Used to create the multiboot BOOT-RECOVERY USB and launch multiple ISO environments from a single drive.
 
-## Toolkit Categories
+## Oracle VirtualBox
 
-The USB is organized into:
+Used to create isolated test environments and validate bootable recovery tools without performing destructive operations on a production computer.
 
-- `01-PowerShell`
-- `02-Network-Tools`
-- `03-System-Tools`
-- `04-Installers`
-- `05-Drivers`
-- `06-Recovery`
-- `07-Documentation`
-- `08-Help-Desk`
-- `09-Portable-Apps`
+## Ubuntu Desktop Live
+
+Used as a live Linux environment for offline troubleshooting and file access.
+
+## SystemRescue
+
+Used for command-line system, storage, filesystem, and recovery diagnostics.
+
+## GParted Live
+
+Used to demonstrate disk and partition inspection and management capabilities.
+
+## Memtest86+
+
+Used to test system memory.
+
+Testing completed:
+
+- 1 full pass
+- 0 errors
+
+## Clonezilla Live
+
+Used to demonstrate disk imaging and cloning capabilities.
+
+The imaging interface was validated without performing an actual destructive cloning operation.
+
+## Windows 11 Recovery Environment
+
+Used to demonstrate:
+
+- Startup Repair
+- Command Prompt
+- System Restore
+- Uninstall Updates
+- System Image Recovery
+- UEFI Firmware Settings
+- DiskPart
 
 ## PowerShell
 
-The toolkit contains PowerShell scripts for system information, disk checks, network diagnostics, process monitoring, file automation, CSV automation, service status, log analysis, and other administrative tasks.
+Used for portable Windows troubleshooting and administrative automation.
 
-## Network Tools
+## Network Utilities
 
-Network troubleshooting resources include:
+The IT-TOOLKIT includes resources such as:
 
-- PuTTY
 - Nmap
+- PuTTY
 - Wireshark
-- Network command references
 
-These resources support connectivity testing, port and service investigation, remote administration, and network troubleshooting.
+## Microsoft Sysinternals
 
-## System Tools
+Included as a portable Windows system troubleshooting and diagnostic resource.
 
-Microsoft Sysinternals resources are included for advanced Windows system diagnostics and troubleshooting.
+## Git and GitHub
 
-## Installers
-
-The toolkit contains commonly needed software installers and installation resources, including:
-
-- Google Chrome
-- Mozilla Firefox
-- 7-Zip
-
-## Drivers
-
-Driver folders provide organized locations for:
-
-- Dell
-- HP
-- Lenovo
-- Network
-- Other driver resources
-
-## Recovery Resources
-
-Windows recovery command references and disk-related resources provide technician guidance during troubleshooting and recovery work.
-
-## Documentation
-
-Reference material includes:
-
-- Windows commands
-- Windows shortcuts
-- Network troubleshooting
-- PowerShell references
-- Help desk troubleshooting checklists
-- New-PC setup checklists
-
-## Help Desk Resources
-
-The toolkit includes:
-
-- Ticket templates
-- Example tickets
-- Common help desk scenarios
-- Escalation guidance
-- User intake questions
-
-## Portable Applications
-
-Portable application resources include tools such as:
-
-- HWiNFO
-- Notepad++
-
-## Skills Demonstrated
-
-- Windows troubleshooting
-- PowerShell administration
-- Network troubleshooting
-- Help desk support
-- Software deployment
-- Driver organization
-- System diagnostics
-- Technical documentation
+Used for version control, project documentation, screenshot evidence, and publication of the completed portfolio project.
