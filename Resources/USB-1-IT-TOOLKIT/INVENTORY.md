@@ -57,3 +57,20 @@ Organized reference folders for:
 - Common troubleshooting scenarios
 - Example help desk tickets
 - Microsoft 365 support tickets
+
+## Validation
+
+USB 1 was mounted and inspected on macOS to verify the folder structure and toolkit contents.
+
+Validation included:
+
+- PowerShell script inventory
+- Network troubleshooting utilities
+- Sysinternals resources
+- Installer organization
+- Driver reference folders
+- Recovery documentation
+- Help desk resources
+- Portable applications
+
+Screenshots of the folder structure and toolkit inventory are included in the repository.
